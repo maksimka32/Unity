@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: PlaySound
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":null,"_type":"UnityEngine.AudioClip","key":"AudioClip","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-42.10452,"y":-285.3682},"zoom":0.8000001,"elements":[{"argumentCount":1,"defaultValues":{"name":{"$content":"PlaySound","$type":"System.String"},"target":null},"position":{"x":333.0,"y":-402.0},"guid":"f6537d88-7d4b-4f67-86e7-962f5e20bd36","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"SoundManager","$type":"System.String"}},"position":{"x":-350.0,"y":61.0},"guid":"d796775d-5672-4a6d-bb57-faec658c6700","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"13"},{"defaultValues":{},"position":{"x":-80.0,"y":-334.0},"guid":"14d6f718-a1af-4415-bca3-6719a7468f00","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"15"},{"sourceUnit":{"$ref":"15"},"sourceKey":"Enter","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"3f97caba-f276-4de2-9372-78a3ad749e84","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"85d361e8-3569-4e6d-809c-7a5a9e367fe9","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"AudioClip","destinationUnit":{"$ref":"11"},"destinationKey":"argument_0","guid":"7cbcc1a5-1c66-4b38-8b0c-0218d1d87cf0","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-166.0,"yMin":43.0,"xMax":-57.0,"yMax":107.0},"label":"Group","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"2d283693-605b-469f-b1e1-9c9f09885df2","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
