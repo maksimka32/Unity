@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ppp.unity
     guid: 7e1066db8b8a6ac499cc7960c18776f6
+  - enabled: 1
+    path: Assets/GameWin.unity
+    guid: fe59762c8824a014baafc7b459e9a7df
   m_configObjects: {}
